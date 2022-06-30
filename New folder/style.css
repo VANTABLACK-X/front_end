@@ -1,63 +1,57 @@
+@charset "utf-8";
 *{
-    padding: 0;
     margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 body{
-    background-color: black;
-    color: rgb(201, 188, 188);
-    font-family: monospace;
-    min-height: 100vh;
-}
-h1{
-    display: flex;
-    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(mib.jpg);
 }
 nav{
-    background: black;
-    height: 70px;
+    position: fixed;
+    top: 0;
+    right: 0;
     width: 100%;
-}
-lable.logo {
-    color: rgb(151, 23, 23);
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 40px;
+    height: 130px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #fff;
 }
 nav ul{
-float: right;
-margin-right: 20px;
-}
-nav ul li{
-    display: inline-block;
-    line-height: 70px;
-    margin: 0 Spx;
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 nav ul li a{
-    color: rgb(219, 199, 199);
-    font-size: 15px;
-    
+    right: 10%;
+    line-height: 180px;
+    color: #fff;
+    padding: 12px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
 }
-a.home{
-    display: inline-block;
-    position: relative;
-    color: rgb(201, 188, 188);
+nav ul li a:hover{
+    background: rgba(59, 59, 59, 0.7);
+    border-radius: 6px;
 }
-a.home:after{
-   content: '';
-   position: absolute;
-   width: 100%;
-   transform: scaleX(0);
-   height: 3px;
-   bottom: 0;
-   left: 0;
-   background-color: rgb(201, 188, 188);
-   transform-origin: bottom right;
-   transition: transform 0.25s ease-out;
+section{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
-a.home:hover:after{
-    transform: scaleX(1);
-    transform-origin: bottom left;
+.logo img{
+    position: fixed;
+    left: 1%;
+    width: 100px;
+    float: left;
+    padding-left: 1%;
+    padding-top: 1%;
 }
