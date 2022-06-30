@@ -8,7 +8,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(mib.jpg);
+    background-color: black;
 }
 nav{
     position: fixed;
@@ -46,6 +46,12 @@ section{
     height: 100vh;
     background-size: cover;
     background-position: center;
+}
+.bgi img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position:absolute;
 }
 .logo img{
     position: fixed;
