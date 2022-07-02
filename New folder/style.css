@@ -79,16 +79,17 @@ nav #icon{
         width: 100%;   
         top: 50px;
         left: 100%;
+        flex-direction: column;
         text-align: center;
-        transition: all .5s;
+        transition: all 0.5s;
     }
     nav li{
         display: block;
     }
     nav ul.show{
+        position: fixed;
         left: 120px;
         flex-direction: column;
-        padding: min();
     }
 }
 section{
