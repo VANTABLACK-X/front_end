@@ -7,6 +7,15 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script>
+            $(document).ready(function(){
+              $('#icon').click(function(){
+                 $('ul').toggleClass('show')
+              });
+            });
+        </script>
     </head>
     
     <body>
@@ -18,14 +27,17 @@
                 <img src="images/logo.png" alt="logo">
             </div>
             
-                        <ul>
-                            <li><a href="#">home</a></li>
-                            <li><a href="#">tech</a></li>
-                            <li><a href="#">art</a></li>
-                            <li><a href="#">fitness</a></li>
-                            <li><a href="#">mind</a></li>
-                            <li><a href="#">photography</a></li>
-                        </ul>
+            <ul>
+                <li><a href="index.html"><span aria-hidden="true"></span>Hone</a></li>
+                <li><a href="tech.html"><span aria-hidden="true"></span>tech</a></li>
+                <li><a href="art.html"><span aria-hidden="true"></span>art</a></li>
+                <li><a href="fitness.html"><span aria-hidden="true"></span>fitness</a></li>
+                <li><a href="mind.html"><span aria-hidden="true"></span>mind</a></li>
+                <li><a href="photography.html"><span aria-hidden="true"></span>photography</a></li>
+            </ul>
+            <label id="icon">
+                <i class="fas fa-bars"></i>
+            </label>
         </nav>
         <section></section>
         <script src="app.js"></script>

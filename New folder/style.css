@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
     font-family: "Montserrat", sans-serif;
 }
 body{
@@ -28,22 +30,74 @@ nav ul{
     list-style: none;
     right: 2%;
     float: right;
-    margin: 0;
+    margin-right: 10px;
     padding: 0;
     display: flex;
 }
-
-nav ul li a{
-    line-height: 160px;
+nav li{
+    display: inline-block;
+    margin: 0 0px;
+    line-height: 80px;
+}
+nav a{ 
     color: #fff;
-    padding: 12px 15px;
-    text-decoration: none;
     font-size: 14px;
+    border: 0.5px solid transparent;
+    line-height: 160px;
+    margin-inline-end: 0.07em;
+    padding: 7px 10px;
+    text-decoration: none;
     font-weight: bold;
+    border-radius: 6px;
 }
 nav ul li a:hover{
     background: rgba(59, 59, 59, 0.7);
     border-radius: 6px;
+}
+nav #icon{
+    position: fixed;
+    color: #fff;
+    right: 1%;
+    padding-top: 2%;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 1048px){
+    lable.logo{
+        font-size: 12px;
+        padding-left: 60px;
+    }
+    nav ul{
+        margin-right: 20px;
+    }
+    nav a{
+        font-size: 15px;
+    }
+}
+@media (max-width: 609px){
+    nav #icon{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 0;
+        background: black;
+        top: 40px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav li{
+        display: block;
+    }
+    nav ul.show{
+        left: 40px;
+    }
 }
 section{
     width: 100%;
@@ -61,6 +115,8 @@ section{
     left: 1%;
     width: 100px;
     float: left;
+    padding: 0 2px;
     padding-left: 1%;
     padding-top: 1%;
+    
 }
