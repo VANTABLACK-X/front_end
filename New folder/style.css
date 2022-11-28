@@ -98,21 +98,25 @@ section{
     background-size: cover;
     background-position: center;
 }
+#parent{position: relative}
 .floating img{
     animation-name: floating;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    position: absolute;
+    top: 500px;
+    right: 0;
 }
 @keyframes floating {
     0%{transform: translate(0, 0px);}
-    50%{transform: translate(0, 15px);}
+    50%{transform: translate(0, 10px);}
     100%{transform: translate(0, 0px);}
 }
-.bgi img{
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
+.moon img{
+    position: absolute;
+    top: 55px;
+    left: 55px;
 }
 .logo img{
     position: fixed;
