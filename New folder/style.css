@@ -11,7 +11,7 @@ body{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color: black;
+    background-color: rgb(4, 0, 19);
 }
 nav{
     position: fixed;
@@ -97,6 +97,17 @@ section{
     height: 100vh;
     background-size: cover;
     background-position: center;
+}
+.floating img{
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    0%{transform: translate(0, 0px);}
+    50%{transform: translate(0, 15px);}
+    100%{transform: translate(0, 0px);}
 }
 .bgi img{
     background-size: cover;
