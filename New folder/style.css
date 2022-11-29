@@ -116,6 +116,7 @@ section{
 .earth video{
     position: absolute;
     width: 100%;
+    box-shadow: 0 0 50px 50px;
 }
 .logo img{
     position: fixed;
