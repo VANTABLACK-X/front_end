@@ -88,7 +88,7 @@ nav #icon{
     }
     nav ul.show{
         position: fixed;
-        left: 120px;
+        left: 180px;
         flex-direction: column;
     }
 }
@@ -136,9 +136,37 @@ section{
     left: 20px;
 }
 .header-text h1{
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 20px;
+    color: rgba(155, 155, 155, 0.7);
 }
 .header-text h1 span{
-    color: rgb(1, 113, 241);
+    color: rgb(255, 255, 255);
+}
+.header-text h2{
+    font-size: 30px;
+    color: rgba(155, 155, 155, 0.7);
+}
+.header-text h3{
+    font-size: 30px;
+    color: rgba(155, 155, 155, 0.7);
+}
+.header-text h2 span{
+    font-size: 30px;
+    color: rgb(93, 169, 255);
+}
+.about {
+    position: absolute;
+    font-size: 10px;
+    color: rgb(201, 201, 201);
+    top: 400px;
+    left: 20px;
+    right: 150px;
+}
+.about p{
+    font-size: 15px;
+    color: rgba(192, 192, 192, 0.7);
+}
+.about p span{
+    color: rgb(255, 255, 255);
 }
