@@ -113,10 +113,9 @@ section{
     50%{transform: translate(0, 10px);}
     100%{transform: translate(0, 0px);}
 }
-.moon img{
+.earth video{
     position: absolute;
-    top: 55px;
-    left: 55px;
+    width: 100%;
 }
 .logo img{
     position: fixed;
@@ -126,4 +125,19 @@ section{
     padding: 0 2px;
     padding-left: 1%;
     padding-top: 1%;
+}
+.header-text {
+    margin-top: 20px;
+    font-size: 30px;
+    color: aliceblue;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+.header-text h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: rgb(57, 0, 133);
 }
