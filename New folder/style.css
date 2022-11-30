@@ -58,40 +58,6 @@ nav #icon{
     cursor: pointer;
     display: none;
 }
-@media (max-width: 1048px){
-    lable.logo{
-        font-size: 13px;
-        padding-left: 60px;
-    }
-    nav ul{
-        margin-right: 20px;
-    }
-    nav a{
-        font-size: 13px;
-    }
-}
-@media (max-width: 609px){
-    nav #icon{
-        display: block;
-    }
-    nav ul{
-        position: fixed;
-        width: 100%;   
-        top: 50px;
-        left: 100%;
-        flex-direction: column;
-        text-align: center;
-        transition: all 0.5s;
-    }
-    nav li{
-        display: block;
-    }
-    nav ul.show{
-        position: fixed;
-        left: 180px;
-        flex-direction: column;
-    }
-}
 section{
     width: 100%;
     height: 100vh;
@@ -119,7 +85,8 @@ section{
 .earth video{
     position: absolute;
     width: 100%;
-    box-shadow: 0 0 100px 50px;
+    box-shadow: 0 0 100px black;
+    
 }
 .logo img{
     position: fixed;
@@ -136,8 +103,8 @@ section{
     font-size: 30px;
     color: aliceblue;
     position: absolute;
-    top: 190px;
-    left: 50px;
+    top: 300px;
+    left: 75px;
 }
 .header-text h1{
     font-size: 50px;
@@ -199,4 +166,30 @@ section{
 }
 .about-sec p span{
     color: rgb(74, 168, 255);
+}
+@media only screen and (max-width: 600px){
+    nav #icon{
+        display: block;
+    }
+    nav ul{
+        background: black;
+        position: fixed;
+        border-radius: 10px;
+        box-shadow: 0 0 2px rgb(201, 201, 201);
+        top: 10px;
+        right: 10px;
+        width: 160px;
+        left: 600px;
+        flex-direction: column;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    nav li{
+        display: block;
+    }
+    nav ul.show{
+        position: fixed;
+        left: 300px;
+        flex-direction: column;
+    }
 }
