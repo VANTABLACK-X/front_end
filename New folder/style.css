@@ -11,7 +11,7 @@ body{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    background-color: rgb(4, 0, 8);
+    background-color: black;
 }
 nav{
     position: fixed;
@@ -70,6 +70,8 @@ section{
 }
 .floating img{
     animation-name: floating;
+    height: 150px; 
+    width: 150px;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
@@ -85,8 +87,8 @@ section{
 .earth video{
     position: absolute;
     width: 100%;
-    box-shadow: 0 0 100px black;
-    
+    height: 650px;
+    top: 20px;
 }
 .logo img{
     position: fixed;
@@ -126,19 +128,37 @@ section{
     font-size: 30px;
     color: rgb(255, 0, 0);
 }
-.vline1 {
+.vline1 img{
     position: absolute;
-    top: 360px;
+    height: 145px; 
+    width: 3px;
+    top: 560px;
     left: 53px;
 }
-.vline2 {
+.vline2 img{
     position: absolute;
-    top: 550px;
+    height: 345px;
+    width: 3px;
+    top: 650px;
     left: 53px;
+}
+.contact {
+    position: absolute;
+    color: aliceblue;
+    top: 480px;
+    left: 75px;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    flex-basis: 35%;
+}
+.contact p i{
+    color: aliceblue;
+    font-size: 20px;
 }
 .about {
     position: absolute;
-    top: 500px;
+    top: 600px;
     left: 50px;
     color: rgb(113, 180, 255);
 }
@@ -155,9 +175,10 @@ section{
     border-radius: 20px;
     box-shadow: 0 0 2px rgb(201, 201, 201);
     color: rgba(236, 236, 236, 0.7);
-    top: 560px;
-    left: 80px;
+    top: 860px;
+    left: 20px;
     right: 20px;
+    width: 1000px;
 }
 .about-sec p{
     margin: 20px;
