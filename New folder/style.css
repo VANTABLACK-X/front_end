@@ -12,6 +12,7 @@ body{
     padding: 0;
     scroll-behavior: smooth;
     background-color: black;
+    overflow: hidden;
 }
 nav{
     position: fixed;
@@ -68,16 +69,23 @@ section{
     position: relative;
     display: grid;
 }
+.brainimg img {
+    position: absolute;
+    height: 100px; 
+    width: 100px;
+    top: 200px;
+    left: 100px;
+}
 .floating img{
     animation-name: floating;
-    height: 150px; 
+    height: 170px; 
     width: 150px;
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     position: absolute;
     top: 420px;
-    right: 10px;
+    right: 30px;
 }
 @keyframes floating {
     0%{transform: translate(0, 0px);}
@@ -102,31 +110,59 @@ section{
 }
 .header-text {
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 35px;
     color: aliceblue;
     position: absolute;
-    top: 300px;
-    left: 75px;
+    top: 440px;
+    left: 144px;
 }
-.header-text h1{
-    font-size: 50px;
+.header-text .ft{
+    font-size: 27px;
     margin-top: 20px;
     color: rgb(255, 255, 255);
 }
-.header-text h1 span{
+.header-text1 {
+    margin-top: 5px;
+    font-size: 65px;
+    color: aliceblue;
+    position: absolute;
+    top: 485px;
+    left: 140px;
+}
+.header-text1 .st{
+    font-size: 55px;
+    font-weight: bolder;
     color: rgb(255, 255, 255);
 }
-.header-text h2{
-    font-size: 30px;
-    color: rgb(255, 255, 255);
+.container .text{
+    position: relative;
+    top: 570px;
+    left: 145px;
+    color: rgb(216, 0, 0);
+    font-size: 25px;
+    font-weight: 600;
 }
-.header-text h3{
-    font-size: 30px;
-    color: rgb(255, 255, 255);
+.container .text.first-text{
+    color: rgb(206, 207, 207);
 }
-.header-text h2 span{
-    font-size: 30px;
-    color: rgb(255, 0, 0);
+.text.sec-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-left: 4px solid rgb(189, 0, 0);
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%, 70%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
 }
 .vline1 img{
     position: absolute;
@@ -142,18 +178,18 @@ section{
     top: 650px;
     left: 53px;
 }
-.contact {
+.contactme {
     position: absolute;
     color: aliceblue;
-    top: 480px;
-    left: 75px;
+    top: 1000px;
+    left: 150px;
     height: 100px;
     width: 100px;
     margin-top: 20px;
     flex-basis: 35%;
 }
-.contact p i{
-    color: aliceblue;
+.contactme p i{
+    color: #ff004f;
     font-size: 20px;
 }
 .about {
