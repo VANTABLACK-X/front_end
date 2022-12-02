@@ -12,7 +12,6 @@ body{
     padding: 0;
     scroll-behavior: smooth;
     background-color: black;
-    overflow: hidden;
 }
 nav{
     position: fixed;
@@ -71,10 +70,10 @@ section{
 }
 .brainimg img {
     position: absolute;
-    height: 100px; 
-    width: 100px;
+    height: 200px; 
+    width: 200px;
     top: 200px;
-    left: 100px;
+    left: 10px;
 }
 .floating img{
     animation-name: floating;
@@ -166,17 +165,17 @@ section{
 }
 .vline1 img{
     position: absolute;
-    height: 145px; 
+    height: 340px; 
     width: 3px;
-    top: 560px;
-    left: 53px;
+    top: 360px;
+    left: 103px;
 }
 .vline2 img{
     position: absolute;
-    height: 345px;
+    height: 340px;
     width: 3px;
-    top: 650px;
-    left: 53px;
+    top: 750px;
+    left: 103px;
 }
 .contactme {
     position: absolute;
@@ -194,8 +193,8 @@ section{
 }
 .about {
     position: absolute;
-    top: 600px;
-    left: 50px;
+    top: 700px;
+    left: 120px;
     color: rgb(113, 180, 255);
 }
 .about h1{
