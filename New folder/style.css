@@ -192,10 +192,49 @@ section{
     top: 730px;
     left: 103px;
 }
+.vline3 img{
+    position: absolute;
+    height: 120px;
+    width: 3px;
+    top: 1270px;
+    left: 103px;
+}
+.purple-r img{
+    position: absolute;
+    top: 1390px;
+    left: 63px;
+    height: 80px;
+    width: 80px;
+}
+.skills-icon i{
+    position: absolute;
+    top: 1418px;
+    left: 93px;
+    height: 80px;
+    width: 80px;
+    font-size: 25px;
+    color: rgb(221, 162, 255);
+}
+.skill h1{
+    position: absolute;
+    top: 1413px;
+    left: 150px;
+    height: 80px;
+    width: 80px;
+    font-size: 25px;
+    color: rgb(221, 162, 255);
+}
+.vline4 img{
+    position: absolute;
+    height: 200px;
+    width: 3px;
+    top: 1470px;
+    left: 103px;
+}
 .contactme {
     position: absolute;
     color: aliceblue;
-    top: 1500px;
+    top: 1600px;
     left: 150px;
     height: 100px;
     width: 100px;
@@ -251,7 +290,10 @@ section{
     width: 1000px;
 }
 .about-sec p{
-    margin: 20px;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-bottom: 30px;
     font-size: 20px;
     font-weight: bold;
     color: rgb(102, 102, 102);
