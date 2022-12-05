@@ -318,6 +318,30 @@ section{
     font-size: 25px;
     color: rgb(209, 255, 212);
 }
+.edu-ico i {
+    position: absolute;
+    top: 2292px;
+    left: 95px;
+    height: 80px;
+    width: 80px;
+    font-size: 25px;
+    color: rgb(209, 255, 212);
+}
+.edu-sec h1 {
+    position: absolute;
+    top: 2350px;
+    left: 150px;
+    font-size: 40px;
+    color: rgb(78, 255, 90);
+}
+.edu-sec p{
+    position: absolute;
+    top: 2395px;
+    left: 150px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(209, 255, 212);
+}
 .vline6 img{
     position: absolute;
     height: 180px;
