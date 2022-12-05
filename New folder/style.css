@@ -224,6 +224,15 @@ section{
     font-size: 25px;
     color: rgb(221, 162, 255);
 }
+.networking {
+    position: absolute;
+    top: 1413px;
+    left: 150px;
+    color: rgb(102, 102, 102);
+}
+.networking h1{
+    color:  rgb(221, 162, 255);
+}
 .vline4 img{
     position: absolute;
     height: 200px;
