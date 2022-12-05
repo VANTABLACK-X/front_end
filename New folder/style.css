@@ -309,14 +309,14 @@ section{
     top: 2260px;
     left: 52px;
 }
-.edu-icon i{
+.edu-tit h1{
     position: absolute;
-    top: 2298px;
-    left: 93px;
-    height: 150px;
-    width: 150px;
+    top: 2290px;
+    left: 152px;
+    height: 80px;
+    width: 80px;
     font-size: 25px;
-    color: rgb(255, 255, 255);
+    color: rgb(209, 255, 212);
 }
 .vline6 img{
     position: absolute;
