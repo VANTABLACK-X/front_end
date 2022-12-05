@@ -194,21 +194,21 @@ section{
 }
 .vline3 img{
     position: absolute;
-    height: 120px;
+    height: 100px;
     width: 3px;
     top: 1270px;
     left: 103px;
 }
 .purple-r img{
     position: absolute;
-    top: 1390px;
+    top: 1370px;
     left: 63px;
     height: 80px;
     width: 80px;
 }
 .skills-icon i{
     position: absolute;
-    top: 1418px;
+    top: 1398px;
     left: 93px;
     height: 80px;
     width: 80px;
@@ -217,33 +217,88 @@ section{
 }
 .skill h1{
     position: absolute;
-    top: 1413px;
+    top: 1393px;
     left: 150px;
     height: 80px;
     width: 80px;
     font-size: 25px;
-    color: rgb(221, 162, 255);
+    color: rgb(232, 193, 255);
+}
+.skill-top {
+    position: absolute;
+    top: 1450px;
+    left: 150px;
+}
+.skill-top p{
+    font-size: 40px;
+    color: rgb(232, 193, 255);
+}
+.skill-top span{
+    color: rgb(103, 0, 163);
 }
 .networking {
     position: absolute;
-    top: 1413px;
-    left: 150px;
+    background: rgba(48, 48, 48, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 0 2px rgb(201, 201, 201);
+    top: 1600px;
+    left: 50px;
+    height: 550px;
+    font-size: 18px;
+    font-weight: bold;
     color: rgb(102, 102, 102);
 }
 .networking h1{
-    color:  rgb(221, 162, 255);
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    color: rgb(221, 221, 221);
+}
+.networking p{
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.otherskills {
+    position: absolute;
+    background: rgb(29, 29, 29);
+    border-radius: 8px;
+    box-shadow: 0 0 2px rgb(201, 201, 201);
+    font-size: 18px;
+    font-weight: bold;
+    top: 1550px;
+    left: 600px;
+    right: 20px;
+    height: 420px;
+    width: 650px;
+    color: rgb(102, 102, 102);
+}
+.otherskills h1{
+    color: rgb(221, 221, 221);
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.otherskills p{
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 30px;
+    margin-bottom: 20px;
 }
 .vline4 img{
     position: absolute;
-    height: 200px;
+    height: 180px;
     width: 3px;
-    top: 1470px;
+    top: 1450px;
     left: 103px;
 }
 .contactme {
     position: absolute;
     color: aliceblue;
-    top: 1600px;
+    top: 2500px;
     left: 150px;
     height: 100px;
     width: 100px;
@@ -266,24 +321,14 @@ section{
     margin-top: 10px;
     margin-left: 20px;
 }
-.about-top1 p{
+.about-top {
     position: absolute;
-    color: rgb(204, 230, 255);
     top: 748px;
     left: 140px;
-    font-size: 40px;
-}
-.about-top1 p span{
-    color: rgb(77, 154, 255);
-}
-.about-top2 p{
-    position: absolute;
     color: rgb(204, 230, 255);
-    top: 788px;
-    left: 140px;
     font-size: 40px;
 }
-.about-top2 p span{
+.about-top p span{
     color: rgb(77, 154, 255);
 }
 .about-sec {
