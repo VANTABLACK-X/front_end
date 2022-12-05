@@ -295,6 +295,36 @@ section{
     top: 1450px;
     left: 103px;
 }
+.vline5 img{
+    position: absolute;
+    height: 100px;
+    width: 3px;
+    top: 2160px;
+    left: 103px;
+}
+.green-r img{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 2260px;
+    left: 52px;
+}
+.edu-icon i{
+    position: absolute;
+    top: 2298px;
+    left: 93px;
+    height: 150px;
+    width: 150px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.vline6 img{
+    position: absolute;
+    height: 180px;
+    width: 3px;
+    top: 2355px;
+    left: 103px;
+}
 .contactme {
     position: absolute;
     color: aliceblue;
