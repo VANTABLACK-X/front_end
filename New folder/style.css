@@ -90,16 +90,6 @@ section{
     height: 650px;
     top: 20px;
 }
-.logo img{
-    position: fixed;
-    left: 1px;
-    top: 1%;
-    width: 100px;
-    float: left;
-    padding: 0 2px;
-    padding-left: 1%;
-    padding-top: 1%;
-}
 .header-text {
     margin-top: 20px;
     font-size: 35px;
@@ -236,6 +226,20 @@ section{
 .skill-top span{
     color: rgb(103, 0, 163);
 }
+.punk img{
+    position: absolute;
+    top: 1368px;
+    left: 1015px;
+    height: 110px;
+    width: 190px;
+}
+.mac img{
+    position: absolute;
+    top: 1353px;
+    left: 1000px;
+    height: 200px;
+    width: 220px;
+}
 .networking {
     position: absolute;
     background: rgba(48, 48, 48, 0.5);
@@ -349,24 +353,52 @@ section{
     top: 2355px;
     left: 103px;
 }
-.contactme {
+.contactme img{
     position: absolute;
-    color: aliceblue;
-    top: 2500px;
-    left: 150px;
-    height: 100px;
-    width: 100px;
-    margin-top: 20px;
-    flex-basis: 35%;
+    top: 2200px;
+    left: 600px;
+    height: 500px;
+    width: 700px;
 }
 .contactme h1{
-    
+    position: absolute;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+    top: 2500px;
+    left: 150px;
 }
-.mail-icon i{
-    color: rgb(3, 98, 182);
+.mail p{
+    position: absolute;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    top: 2585px;
+    left: 150px;
+    font-size: 20px;
 }
-.con-icon i{
-    color: rgb(3, 98, 182);
+.mail i{
+    color: rgb(73, 73, 73);
+}
+.number p{
+    position: absolute;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    top: 2550px;
+    left: 150px;
+    font-size: 20px;
+}
+.number i{
+    color: rgb(73, 73, 73);
+}
+.social-icons {
+    position: absolute;
+    top: 2610px;
+    left: 150px;
+    font-size: 30px;
+}
+.social-icons i{
+    color: rgb(73, 73, 73);
+    margin-top: 20px;
+    margin-right: 20px;
 }
 .about {
     position: absolute;
@@ -419,7 +451,7 @@ section{
         display: block;
     }
     nav ul{
-        background: black;
+        background: rgb(19, 19, 19);
         position: fixed;
         border-radius: 10px;
         box-shadow: 0 0 2px rgb(201, 201, 201);
@@ -428,7 +460,7 @@ section{
         width: 160px;
         left: 600px;
         flex-direction: column;
-        text-align: center;
+        text-align: left;
         transition: all 0.5s;
     }
     nav li{
@@ -436,7 +468,394 @@ section{
     }
     nav ul.show{
         position: fixed;
-        left: 300px;
+        left: 180px;
         flex-direction: column;
     }
+    nav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        box-sizing: border-box;
+        box-shadow: 0 0 70px 70px black;
+    }
+    .earth video{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        top: 8px;
+    }
+    .floating img{
+        animation-name: floating;
+        height: 100px; 
+        width: 90px;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        position: absolute;
+        top: 210px;
+        right: 20px;
+    }
+    .header-text {
+        position: absolute;
+        font-weight: bold;
+        top: 250px;
+        left: 70px;
+        margin-top: 20px;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+    }
+    .header-text .ft{
+        font-size: 20px;
+        margin-top: 20px;
+        color: rgb(102, 102, 102);
+    }
+    .header-text1 {
+        margin-top: 10px;
+        font-size: 30px;
+        color: aliceblue;
+        position: absolute;
+        top: 285px;
+        left: 70px;
+        right: 10px;
+    }
+    .header-text1 h1{
+        font-size: 40px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
+    .container .text{
+        position: relative;
+        top: 410px;
+        left: 70px;
+        color: rgb(77, 154, 255);
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .container .text.first-text{
+        color: rgb(102, 102, 102);
+    }
+    .text.sec-text::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        border-left: 4px solid rgb(77, 154, 255);
+        animation: animate 4s steps(12) infinite;
+    }
+    @keyframes animate{
+        40%, 70%{
+            left: 100%;
+        }
+        100%{
+            left: 0%;
+        }
+    }
+    .hand-shake i{
+        position: absolute;
+        color: rgb(102, 102, 102);
+        font-size: 20px;
+        top: 273px;
+        left: 20px; 
+    }
+    .about {
+        position: absolute;
+        top: 495px;
+        left: 50px;
+    }
+    .about h1{
+        font-size: 20px;
+        font-weight: bold;
+        color:  rgb(204, 230, 255);
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    .about-top {
+        position: absolute;
+        top: 548px;
+        left: 70px;
+        right: 10px;
+        color: rgb(204, 230, 255);
+        font-size: 25px;
+    }
+    .about-top p span{
+        color: rgb(77, 154, 255);
+    }
+    .about-sec {
+        position: absolute;
+        font-size: 10px;
+        margin: auto;
+        background: rgba(48, 48, 48, 0.5);
+        border-radius: 8px;
+        box-shadow: 0 0 2px rgb(201, 201, 201);
+        color: rgba(236, 236, 236, 0.7);
+        top: 800px;
+        left: 15px;
+        right: 20px;
+        width: 320px;
+    }
+    .about-sec p{
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(102, 102, 102);
+    }
+    .about-sec p span{
+        color: rgb(221, 221, 221);
+    }
+    .about-icon i{
+        position: absolute;
+        font-size: 20px;
+        top: 505px;
+        left: 23px;
+        color: rgb(204, 230, 255);
+    }
+    .vline1 img{
+        position: absolute;
+        height: 200px; 
+        width: 3px;
+        top: 290px;
+        left: 30px;
+    }
+    .blue-r img{
+        position: absolute;
+        top: 483px;
+        left: 0;
+        height: 70px;
+        width: 70px;
+    }
+    .vline2 img{
+        position: absolute;
+        height: 250px;
+        width: 3px;
+        top: 545px;
+        left: 30px;
+    }
+    .vline3 img{
+        position: absolute;
+        height: 167px;
+        width: 3px;
+        top: 1330px;
+        left: 30px;
+    }
+    .purple-r img{
+        position: absolute;
+        top: 1500px;
+        left: 0;
+        height: 60px;
+        width: 60px;
+    }
+    .vline4 img{
+        position: absolute;
+        height: 110px;
+        width: 3px;
+        top: 1560px;
+        left: 30px;
+    }
+    .skills-icon i{
+        position: absolute;
+        top: 1520px;
+        left: 21px;
+        height: 80px;
+        width: 80px;
+        font-size: 20px;
+        color: rgb(221, 162, 255);
+    }
+    .skill h1{
+        position: absolute;
+        top: 1516px;
+        left: 70px;
+        height: 80px;
+        width: 80px;
+        font-size: 20px;
+        color: rgb(232, 193, 255);
+    }
+    .skill-top {
+        position: absolute;
+        top: 1560px;
+        left: 70px;
+        right: 10px;
+    }
+    .skill-top p{
+        font-size: 25px;
+        color: rgb(232, 193, 255);
+    }
+    .skill-top span{
+        color: rgb(103, 0, 163);
+    }
+    .punk img{
+        position: absolute;
+        top: 1395px;
+        left: 167px;
+        height: 89px;
+        width: 155px;
+    }
+    .mac img{
+        position: absolute;
+        top: 1370px;
+        left: 150px;
+        height: 180px;
+        width: 190px;
+    }
+    .networking {
+        position: absolute;
+        background: rgba(48, 48, 48, 0.5);
+        border-radius: 8px;
+        box-shadow: 0 0 2px rgb(201, 201, 201);
+        top: 1660px;
+        left: 20px;
+        height: 580px;
+        right: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        color: rgb(102, 102, 102);
+    }
+    .networking h1{
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        color: rgb(221, 221, 221);
+    }
+    .networking p{
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+    .otherskills {
+        position: absolute;
+        background: rgb(29, 29, 29);
+        border-radius: 8px;
+        box-shadow: 0 0 2px rgb(201, 201, 201);
+        font-size: 15px;
+        font-weight: bold;
+        top: 2200px;
+        left: 5px;
+        right: 20px;
+        height: 400px;
+        width: 320px;
+        color: rgb(102, 102, 102);
+    }
+    .otherskills h1{
+        color: rgb(221, 221, 221);
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+    .otherskills p{
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-right: 30px;
+        margin-bottom: 15px;
+    }
+    .vline5 img{
+        position: absolute;
+        height: 80px;
+        width: 3px;
+        top: 2605px;
+        left: 30px;
+    }
+    .green-r img{
+        position: absolute;
+        height: 62px;
+        width: 62px;
+        top: 2685px;
+        left: 0;
+    }
+    .edu-tit h1{
+        position: absolute;
+        top: 2700px;
+        left: 70px;
+        height: 80px;
+        width: 80px;
+        font-size: 20px;
+        color: rgb(209, 255, 212);
+    }
+    .edu-ico i {
+        position: absolute;
+        top: 2703px;
+        left: 25px;
+        height: 80px;
+        width: 80px;
+        font-size: 20px;
+        color: rgb(209, 255, 212);
+    }
+    .edu-sec h1 {
+        position: absolute;
+        top: 2750px;
+        left: 70px;
+        font-size: 30px;
+        color: rgb(78, 255, 90);
+    }
+    .edu-sec p{
+        position: absolute;
+        top: 2815px;
+        left: 70px;
+        margin-top: 20px;
+        font-size: 30px;
+        color: rgb(209, 255, 212);
+    }
+    .vline6 img{
+        position: absolute;
+        height: 180px;
+        width: 3px;
+        top: 2745px;
+        left: 30px;
+    }
+    .contactme img{
+        position: absolute;
+        top: 3050px;
+        left: 0;
+        height: 200px;
+        width: 350px;
+    }
+    .contactme h1{
+        position: absolute;
+        font-weight: bold;
+        color: rgb(73, 73, 73);
+        top: 2950px;
+        left: 50px;
+    }
+    .mail p{
+        position: absolute;
+        font-weight: bold;
+        color: rgb(54, 54, 54);
+        top: 3000px;
+        left: 50px;
+        font-size: 15px;
+    }
+    .mail i{
+        color: rgb(73, 73, 73);
+    }
+    .number p{
+        position: absolute;
+        font-weight: bold;
+        color: rgb(54, 54, 54);
+        top: 3030px;
+        left: 50px;
+        font-size: 15px;
+    }
+    .number i{
+        color: rgb(73, 73, 73);
+    }
+    .social-icons {
+        position: absolute;
+        top: 3050px;
+        left: 50px;
+        font-size: 20px;
+    }
+    .social-icons i{
+        color: rgb(73, 73, 73);
+        margin-top: 20px;
+        margin-right: 15px;
+    }
+
 }
