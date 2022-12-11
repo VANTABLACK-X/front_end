@@ -2,11 +2,41 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>fitness</title>
-        <link rel="stylesheet" href="style.css">
+        <title>art</title>
+        <link rel="stylesheet" href="art.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@200&family=Noto+Sans&family=Noto+Sans+KR&family=Oswald:wght@500&family=Poppins&display=swap" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@200&family=Noto+Sans&family=Noto+Sans+KR&family=Oswald:wght@500&family=Poppins&display=swap');
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.0/aos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script>
+            $(document).ready(function(){
+              $('#icon').click(function(){
+                 $('ul').toggleClass('show')
+              });
+            });
+        </script>
     </head>
     <body>
         <h1 style="color: aliceblue; text-align: center;">Page is on work</h1>
         <p style="color: aliceblue; text-align: center;">wait for it guys</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="tech.html">TECH</a></li>
+                <li><a href="art.html">ART</a></li>
+                <li><a href="fitness.html">FITNESS</a></li>
+                <li><a href="photography.html">PHOTOGRAPHY</a></li>
+            </ul>
+            <label id="icon">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </nav>
+        <section></section>
     </body>
 </html>
