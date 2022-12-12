@@ -58,6 +58,19 @@ nav #icon{
     cursor: pointer;
     display: none;
 }
+.page h1{
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    color: aliceblue;
+}
+.page p{
+    position: absolute;
+    top: 250px;
+    left: 620px;
+    color: aliceblue;
+    font-size: larger;
+}
 section{
     width: 100%;
     height: 100vh;
@@ -96,5 +109,18 @@ section{
         width: 100%;
         box-sizing: border-box;
         box-shadow: 0 0 70px 70px black;
+    }
+    .page h1{
+        position: absolute;
+        top: 200px;
+        left: 60px;
+        color: aliceblue;
+    }
+    .page p{
+        position: absolute;
+        top: 250px;
+        left: 110px;
+        color: aliceblue;
+        font-size: larger;
     }
 }
