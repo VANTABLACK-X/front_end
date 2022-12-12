@@ -58,6 +58,10 @@ nav #icon{
     cursor: pointer;
     display: none;
 }
+.page h1{
+    top: 1000px;
+    color: aliceblue;
+}
 section{
     width: 100%;
     height: 100vh;
