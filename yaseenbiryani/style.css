@@ -72,13 +72,6 @@ nav #icon{
     height: 600px;
     width: 750px;
 }
-.frame img{
-    position: absolute;
-    top: 80px;
-    left: 50px;
-    height: 580px;
-    width: 440px;
-}
 .bismillah img{
     position: absolute;
     top: 150px;
@@ -97,19 +90,17 @@ nav #icon{
     left: 162px;
     color: rgb(202, 145, 58);
 }
-.chef i{
+.main-content h1 span{
     position: absolute;
-    font-size: 45px;
-    top: 470px;
-    left: 62px;
-    color: rgb(255, 255, 255);
+    left: 110px;
+    color: rgb(30, 114, 34);
 }
 .name p{
     position: absolute;
-    font-size: 45px;
+    font-size: 25px;
     top: 470px;
     left: 62px;
-    color: rgb(255, 255, 255);
+    color: rgb(107, 106, 106);
 }
 section{
     width: 100%;
