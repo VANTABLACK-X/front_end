@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Yaseen Biryani</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="services.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@200&family=Noto+Sans&family=Noto+Sans+KR&family=Oswald:wght@500&family=Poppins&display=swap" rel="stylesheet">
@@ -37,13 +37,28 @@
         </div>
         <div class="main-content">
             <h1>Yaseen Biryani</h1>
+            <h2>As-salaamu Alaykum</h2>
         </div>
-        <div class="chef">
-            <i class="fa-regular fa-hat-chef"></i>
+        <div class="container">
+            <span class="text first-text">We provide</span>
+            <span class="text sec-text"></span>
         </div>
-        <div class="name">
-            <p>Ibrahim</p>
-        </div>
+        <script>
+            const text = document.querySelector(".sec-text");
+            const textload = () => {
+                setTimeout(() => {
+                    text.textContent = "Chicken Biryani";
+                }, 0);
+                setTimeout(() => {
+                    text.textContent = "Mutton Biryani";
+                }, 4000);
+                setTimeout(() => {
+                    text.textContent = "Beef Biryani";
+                }, 8000);
+            }
+            textload();
+            setInterval(textload, 12000);
+        </script>
         <nav>
             <ul>
                 <li><a href="index.html">HOME</a></li>

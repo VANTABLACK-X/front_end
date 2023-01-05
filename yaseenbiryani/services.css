@@ -7,18 +7,11 @@
     text-decoration: none;
     font-family: 'Noto Sans', sans-serif;
 }
-html{
-    height: -wedkit-fill-available;
-}
 body{
-    display: flex;
-    flex-direction: column;
-    max-width: 1400px;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
     background-color: black;
-    height: 100vh;
-    height: -wedkit-fill-available;
 }
 nav{
     position: fixed;
@@ -74,10 +67,10 @@ nav #icon{
 }
 .frame img{
     position: absolute;
-    top: 80px;
-    left: 50px;
-    height: 580px;
-    width: 440px;
+    top: 90px;
+    left: 70px;
+    height: 550px;
+    width: 400px;
 }
 .bismillah img{
     position: absolute;
@@ -89,27 +82,49 @@ nav #icon{
 .logo img{
     position: absolute;
     top: 250px;
-    left: 190px;
+    left: 180px;
 }
 .main-content h1{
     position: absolute;
-    top: 370px;
-    left: 162px;
+    top: 390px;
+    left: 152px;
     color: rgb(202, 145, 58);
 }
-.chef i{
+.main-content h2{
     position: absolute;
-    font-size: 45px;
-    top: 470px;
-    left: 62px;
-    color: rgb(255, 255, 255);
+    top: 350px;
+    left: 50px;
+    color: rgb(102, 102, 102);
 }
-.name p{
+.container .text{
+    position: relative;
+    top: 390px;
+    left: 50px;
+    color: rgb(202, 145, 58);
+    font-size: 25px;
+    font-weight: bolder;
+}
+.container .text.first-text{
+    color: rgb(102, 102, 102);
+}
+.text.sec-text::before{
+    content: "";
     position: absolute;
-    font-size: 45px;
-    top: 470px;
-    left: 62px;
-    color: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-left: 4px solid rgb(202, 145, 58);
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%, 70%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
 }
 section{
     width: 100%;
