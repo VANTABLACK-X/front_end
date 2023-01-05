@@ -58,18 +58,17 @@ nav #icon{
     cursor: pointer;
     display: none;
 }
-.page h1{
+.logo img{
     position: absolute;
-    top: 200px;
-    left: 550px;
-    color: aliceblue;
+    top: 150px;
+    left: 50px;
 }
-.page p{
+.bg img{
     position: absolute;
-    top: 250px;
-    left: 620px;
-    color: aliceblue;
-    font-size: larger;
+    top: 150px;
+    right: 50px;
+    height: 300px;
+    width: 450px;
 }
 section{
     width: 100%;
