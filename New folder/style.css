@@ -439,9 +439,51 @@ section{
     color: rgba(236, 236, 236, 0.7);
     top: 900px;
     left: 50px;
+    height: 350px;
     width: 1000px;
 }
-.about-sec p{
+.about-cont {
+    position: absolute;
+    font-size: 10px;
+    margin: auto;
+    background: linear-gradient(0deg , black , rgb(44, 44, 44));
+    border-radius: 8px;
+    box-shadow: 0 0 2px rgb(201, 201, 201);
+    color: rgba(236, 236, 236, 0.7);
+    top: 900px;
+    left: 50px;
+    height: 350px;
+    width: 1000px;
+}
+.glow::before , .glow::after{
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg , #e6fb04 , #ff6600 , #00ff66 , #00ffff , #ff00ff ,#ff0099 , #6e0dd0 , #ff3300 , #099fff);
+    background-size: 400%;
+    border-radius: 8px;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;
+    animation: animat 20s linear infinite;
+}
+@keyframes animat{
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 0 0 ;
+    }
+}
+.glow::after{
+    filter: blur(40px);
+
+}
+.about-cont p{
     margin-top: 30px;
     margin-left: 70px;
     margin-right: 30px;
@@ -450,7 +492,7 @@ section{
     font-weight: bold;
     color: rgb(102, 102, 102);
 }
-.about-sec p span{
+.about-cont p span{
     color: rgb(221, 221, 221);
 }
 @media only screen and (max-width: 700px){
@@ -602,9 +644,24 @@ section{
         top: 800px;
         left: 15px;
         right: 20px;
+        height: 520px;
         width: 320px;
     }
-    .about-sec p{
+    .about-cont {
+        position: absolute;
+        font-size: 10px;
+        margin: auto;
+        background: linear-gradient(0deg , black , rgb(44, 44, 44));
+        border-radius: 8px;
+        box-shadow: 0 0 2px rgb(201, 201, 201);
+        color: rgba(236, 236, 236, 0.7);
+        top: 800px;
+        left: 15px;
+        right: 20px;
+        height: 520px;
+        width: 320px;
+    }
+    .about-cont p{
         margin-top: 20px;
         margin-left: 60px;
         margin-right: 30px;
@@ -613,7 +670,7 @@ section{
         font-weight: bold;
         color: rgb(102, 102, 102);
     }
-    .about-sec p span{
+    .about-cont p span{
         color: rgb(221, 221, 221);
     }
     .about-icon i{
@@ -698,10 +755,10 @@ section{
     }
     .punk img{
         position: absolute;
-        top: 1395px;
-        left: 167px;
-        height: 89px;
-        width: 155px;
+        top: 1380px;
+        left: 163px;
+        height: 110px;
+        width: 168px;
     }
     .mac img{
         position: absolute;
