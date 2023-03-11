@@ -113,12 +113,12 @@ animation: change-op 10s infinite linear;
 #x::after{
     content: '';
     position: absolute;
-    top: 50px;
+    top: 52px;
     bottom: 0px;
     left: 0;
     right: 0;
     border-radius: 1em;
-    background: radial-gradient(#111124 30%,#f84aa7, #ffc8e6);
+    background: radial-gradient(#111124 30%,#ffffff, #dddddd);
     transform: perspective(1em) rotateX(80deg) translateY(70%);
     filter: blur(5px);
     animation: change-op 10s infinite linear;
@@ -156,7 +156,7 @@ animation: change-op 10s infinite linear;
     90%,
     92%,
     94% {
-        background: linear-gradient(-90deg, #ffb8de, #858484);
+        background: linear-gradient(-90deg, #ffffff, #858484);
         background-clip: text;
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -225,7 +225,7 @@ animation: change-op 10s infinite linear;
     92%,
     94% {
         color: white;
-        text-shadow: 0 0 0.125em rgba(248, 74, 167, 1);
+        text-shadow: 0 0 0.125em rgb(255, 255, 255);
     }
 }
 .paint i{
@@ -265,7 +265,7 @@ animation: change-op 10s infinite linear;
     90%,
     92%,
     94% {
-        background: linear-gradient(90deg, #ffb8de, #858484);
+        background: linear-gradient(-120deg, #ffffff, #858484);
         background-clip: text;
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -362,37 +362,6 @@ animation: change-op 10s infinite linear;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
-.container .text{
-    position: relative;
-    top: 470px;
-    left: 145px;
-    color: rgb(77, 154, 255);
-    font-size: 25px;
-    font-weight: bolder;
-}
-.container .text.first-text{
-    color: rgb(102, 102, 102);
-}
-.text.sec-text::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    border-left: 4px solid rgb(77, 154, 255);
-    animation: animate 4s steps(12) infinite;
-}
-@keyframes animate{
-    40%, 70%{
-        left: 100%;
-    }
-    100%{
-        left: 0%;
-    }
-}
-
 .paint i{
     position: absolute;
     color: rgb(102, 102, 102);
@@ -740,7 +709,7 @@ animation: change-op 10s infinite linear;
     }
 }
 .glow::after{
-    filter: blur(40px);
+    filter: blur(25px);
 
 }
 .about-cont p{
