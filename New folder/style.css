@@ -689,7 +689,7 @@ animation: change-op 10s infinite linear;
     position: absolute;
     left: -2px;
     top: -2px;
-    background: linear-gradient(45deg , #e6fb04 , #ff6600 , #00ff66 , #00ffff , #ff00ff ,#ff0099 , #6e0dd0 , #ff3300 , #099fff);
+    background: linear-gradient(90deg , #e6fb04 , #ff6600 , #00ff66 , #00ffff , #ff00ff ,#ff0099 , #6e0dd0 , #ff3300 , #099fff);
     background-size: 400%;
     border-radius: 8px;
     width: calc(100% + 5px);
