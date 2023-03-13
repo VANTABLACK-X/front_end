@@ -371,10 +371,11 @@ animation: change-op 10s infinite linear;
 }
 .pc i{
     position: absolute;
-    color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
     font-size: 35px;
     top: 450px;
     left: 200px; 
+    text-shadow: 0 0 0.5rem #fff, 0 0 1rem #d400ff, 0 0 1.5rem #d400ff, 0 0 2.5rem #d400ff, 0 0 4rem #d400ff, 0 0 5.5rem #d400ff;
 }
 .fit i{
     position: absolute;
@@ -431,7 +432,7 @@ animation: change-op 10s infinite linear;
 .purple-r img{
     position: absolute;
     top: 1370px;
-    left: 63px;
+    left: 263px;
     height: 80px;
     width: 80px;
 }
@@ -442,7 +443,8 @@ animation: change-op 10s infinite linear;
     height: 80px;
     width: 80px;
     font-size: 25px;
-    color: rgb(221, 162, 255);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 0.5px #fff, 0 0 10px #d400ff, 0 0 15px #d400ff, 0 0 25px #d400ff, 0 0 30px #d400ff, 0 0 35px #d400ff, 0 0 40px #d400ff, 0 0 50px #d400ff, 0 0 60px #d400ff, 0 0 70px #d400ff, 0 0 12px #d400ff, 0 0 80px #d400ff;
 }
 .skill h1{
     position: absolute;
