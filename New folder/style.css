@@ -397,12 +397,13 @@ animation: change-op 10s infinite linear;
     left: 95px;
     color: rgb(204, 230, 255);
 }
-.vline1 img{
+.vline1 {
     position: absolute;
-    height: 160px; 
-    width: 3px;
     top: 515px;
     left: 103px;
+    height: 160px;
+    width: 3px;
+    background: linear-gradient(rgb(0, 0, 0) 15%, rgb(109, 200, 252)) ;
 }
 .blue-r img{
     position: absolute;
@@ -411,19 +412,21 @@ animation: change-op 10s infinite linear;
     height: 100px;
     width: 100px;
 }
-.vline2 img{
+.vline2 {
     position: absolute;
     height: 200px;
     width: 3px;
     top: 730px;
     left: 103px;
+    background: linear-gradient(rgb(109, 200, 252), rgb(0, 0, 0) 85%) ;
 }
-.vline3 img{
+.vline3 {
     position: absolute;
     height: 100px;
     width: 3px;
     top: 1270px;
     left: 103px;
+    background: linear-gradient(rgb(0, 0, 0) 15%, rgb(197, 51, 255)) ;
 }
 .purple-r img{
     position: absolute;
@@ -528,19 +531,21 @@ animation: change-op 10s infinite linear;
     margin-right: 30px;
     margin-bottom: 20px;
 }
-.vline4 img{
+.vline4 {
     position: absolute;
     height: 180px;
     width: 3px;
     top: 1450px;
     left: 103px;
+    background: linear-gradient(rgb(197, 51, 255), rgb(0, 0, 0) 85%) ;
 }
-.vline5 img{
+.vline5 {
     position: absolute;
     height: 100px;
     width: 3px;
     top: 2160px;
     left: 103px;
+    background: linear-gradient(rgb(0, 0, 0) 15%, rgb(8, 252, 41));
 }
 .green-r img{
     position: absolute;
@@ -582,12 +587,13 @@ animation: change-op 10s infinite linear;
     font-size: 25px;
     color: rgb(209, 255, 212);
 }
-.vline6 img{
+.vline6 {
     position: absolute;
     height: 180px;
     width: 3px;
     top: 2355px;
     left: 103px;
+    background: linear-gradient(rgb(8, 252, 41), rgb(0, 0, 0) 85%);
 }
 .contactme img{
     position: absolute;
