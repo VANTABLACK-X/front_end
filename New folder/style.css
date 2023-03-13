@@ -26,15 +26,7 @@ nav{
     right: 0;
     width: 100%;
     box-sizing: border-box;
-    box-shadow: 0 0 100px 100px black;
-}
-.nav1 {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    box-sizing: border-box;
-    box-shadow: 0 0 100px 100px black;
+    box-shadow: 0 0 25px 25px black, 0 0 50px 50px black, 0 0  75px 75px black, 0 0 100px 100px black;
 }
 nav ul{
     position: fixed;
@@ -334,30 +326,14 @@ animation: change-op 10s infinite linear;
 .navi a i{
     color: #646464;
     font-size: 30px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 50px
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
-.pc i{
-    position: absolute;
-    color: rgb(102, 102, 102);
-    font-size: 35px;
-    top: 450px;
-    left: 200px; 
-}
-.fit i{
-    position: absolute;
-    color: rgb(102, 102, 102);
-    font-size: 35px;
-    top: 450px;
-    left: 300px; 
-}
-.photo i{
-    position: absolute;
-    color: rgb(102, 102, 102);
-    font-size: 35px;
-    top: 450px;
-    left: 400px; 
+.navi a i:hover{
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 15px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255);
 }
 .about-icon i{
     position: absolute;
