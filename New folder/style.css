@@ -327,11 +327,11 @@ animation: change-op 10s infinite linear;
 }
 .navi {
     position: fixed;
+    align-items: center;
     top: 15px;
     left: 490px; 
 }
 .navi a i{
-    align-items: center;
     color: #646464;
     font-size: 30px;
     margin-top: 5px;
