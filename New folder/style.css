@@ -444,7 +444,7 @@ animation: change-op 10s infinite linear;
     width: 80px;
     font-size: 25px;
     color: rgb(255, 255, 255);
-    text-shadow: 0 0 0.5px #fff, 0 0 10px #d400ff, 0 0 15px #d400ff, 0 0 25px #d400ff, 0 0 30px #d400ff, 0 0 35px #d400ff, 0 0 40px #d400ff, 0 0 50px #d400ff, 0 0 60px #d400ff, 0 0 70px #d400ff, 0 0 12px #d400ff, 0 0 80px #d400ff;
+    text-shadow: 0 0 10px #d400ff, 0 0 15px #d400ff, 0 0 25px #d400ff, 0 0 30px #d400ff, 0 0 35px #d400ff, 0 0 40px #d400ff, 0 0 50px #d400ff, 0 0 60px #d400ff, 0 0 70px #d400ff, 0 0 12px #d400ff, 0 0 80px #d400ff;
 }
 .skill h1{
     position: absolute;
