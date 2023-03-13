@@ -363,13 +363,13 @@ animation: change-op 10s infinite linear;
     position: absolute;
     height: 100px;
     width: 3px;
-    top: 1270px;
+    top: 1400px;
     left: 103px;
     background: linear-gradient(rgb(0, 0, 0) 15%, rgb(197, 51, 255)) ;
 }
 .skills-icon i{
     position: absolute;
-    top: 1398px;
+    top: 1513px;
     left: 93px;
     height: 80px;
     width: 80px;
@@ -379,7 +379,7 @@ animation: change-op 10s infinite linear;
 }
 .skill h1{
     position: absolute;
-    top: 1393px;
+    top: 1508px;
     left: 150px;
     height: 80px;
     width: 80px;
@@ -388,7 +388,7 @@ animation: change-op 10s infinite linear;
 }
 .skill-top {
     position: absolute;
-    top: 1450px;
+    top: 1580px;
     left: 150px;
 }
 .skill-top p{
@@ -417,7 +417,7 @@ animation: change-op 10s infinite linear;
     background: rgba(48, 48, 48, 0.5);
     border-radius: 8px;
     box-shadow: 0 0 2px rgb(201, 201, 201);
-    top: 1600px;
+    top: 1700px;
     left: 50px;
     height: 550px;
     font-size: 18px;
@@ -444,7 +444,7 @@ animation: change-op 10s infinite linear;
     box-shadow: 0 0 2px rgb(201, 201, 201);
     font-size: 18px;
     font-weight: bold;
-    top: 1550px;
+    top: 1650px;
     left: 600px;
     right: 20px;
     height: 420px;
@@ -468,7 +468,7 @@ animation: change-op 10s infinite linear;
     position: absolute;
     height: 180px;
     width: 3px;
-    top: 1450px;
+    top: 1550px;
     left: 103px;
     background: linear-gradient(rgb(197, 51, 255), rgb(0, 0, 0) 85%) ;
 }
@@ -476,13 +476,13 @@ animation: change-op 10s infinite linear;
     position: absolute;
     height: 100px;
     width: 3px;
-    top: 2160px;
+    top: 2260px;
     left: 103px;
     background: linear-gradient(rgb(0, 0, 0) 15%, rgb(8, 252, 41));
 }
 .edu-tit h1{
     position: absolute;
-    top: 2290px;
+    top: 2390px;
     left: 152px;
     height: 80px;
     width: 80px;
@@ -491,7 +491,7 @@ animation: change-op 10s infinite linear;
 }
 .edu-ico i {
     position: absolute;
-    top: 2292px;
+    top: 2392px;
     left: 95px;
     height: 80px;
     width: 80px;
@@ -501,14 +501,14 @@ animation: change-op 10s infinite linear;
 }
 .edu-sec h1 {
     position: absolute;
-    top: 2350px;
+    top: 2450px;
     left: 150px;
     font-size: 40px;
     color: rgb(78, 255, 90);
 }
 .edu-sec p{
     position: absolute;
-    top: 2395px;
+    top: 2495px;
     left: 150px;
     margin-top: 20px;
     font-size: 25px;
@@ -518,13 +518,13 @@ animation: change-op 10s infinite linear;
     position: absolute;
     height: 180px;
     width: 3px;
-    top: 2355px;
+    top: 2455px;
     left: 103px;
     background: linear-gradient(rgb(8, 252, 41), rgb(0, 0, 0) 85%);
 }
 .contactme img{
     position: absolute;
-    top: 2200px;
+    top: 2300px;
     left: 600px;
     height: 500px;
     width: 700px;
@@ -533,14 +533,14 @@ animation: change-op 10s infinite linear;
     position: absolute;
     font-weight: bold;
     color: rgb(73, 73, 73);
-    top: 2500px;
+    top: 2600px;
     left: 150px;
 }
 .mail p{
     position: absolute;
     font-weight: bold;
     color: rgb(54, 54, 54);
-    top: 2585px;
+    top: 2685px;
     left: 150px;
     font-size: 20px;
 }
@@ -551,7 +551,7 @@ animation: change-op 10s infinite linear;
     position: absolute;
     font-weight: bold;
     color: rgb(54, 54, 54);
-    top: 2550px;
+    top: 2650px;
     left: 150px;
     font-size: 20px;
 }
@@ -560,7 +560,7 @@ animation: change-op 10s infinite linear;
 }
 .social-icons {
     position: absolute;
-    top: 2610px;
+    top: 2710px;
     left: 150px;
     font-size: 30px;
 }
@@ -601,7 +601,7 @@ animation: change-op 10s infinite linear;
     color: rgba(236, 236, 236, 0.7);
     top: 900px;
     left: 50px;
-    height: 350px;
+    height: 500px;
     width: 1000px;
 }
 .about-cont {
@@ -614,7 +614,7 @@ animation: change-op 10s infinite linear;
     color: rgba(236, 236, 236, 0.7);
     top: 900px;
     left: 50px;
-    height: 350px;
+    height: 500px;
     width: 1000px;
 }
 .glow::before , .glow::after{
