@@ -1,17 +1,211 @@
-@charset "utf-8";
-*{
-    margin: 0;
+*, *::before, *::after{
     padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box
 }
 body{
-    margin: 0;
-    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
     scroll-behavior: smooth;
     background-color: black;
+}
+main {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.parallax{
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
+.bg-img{
+    position: absolute;
+    width: 2800px;
+    top: calc(50% - 340px);
+    left: calc(50% + 10px);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.fog-7 {
+    position: absolute;
+    z-index: 2;
+    width: 1900px;
+    top: calc(50% - 100px);
+    left: calc(50% + 300px);
+    transform: translate(-50%, -50%);
+}
+.mountain-10 {
+    position: absolute;
+    z-index: 3;
+    width: 892px;
+    top: calc(50% + 69px);
+    left: calc(50% + 230px);
+    transform: translate(-50%, -50%);
+}
+.fog-6 {
+    position: absolute;
+    z-index: 4;
+    width: 1610px;
+    top: calc(50% + 85px);
+    left: calc(50% + 10px);
+    transform: translate(-50%, -50%);
+}
+.mountain-9 {
+    position: absolute;
+    z-index: 12;
+    width: 538px;
+    top: calc(50% + 250px);
+    left: calc(50% - 590px);
+    transform: translate(-50%, -50%);
+}
+.mountain-8 {
+    position: absolute;
+    z-index: 6;
+    width: 810px;
+    top: calc(50% + 86px);
+    left: calc(50% - 202px);
+    transform: translate(-50%, -50%);
+}
+.fog-5 {
+    position: absolute;
+    z-index: 7;
+    width: 450px;
+    top: calc(50% + 160px);
+    left: calc(50% - 520px);
+    transform: translate(-50%, -50%);
+}
+.mountain-7 {
+    position: absolute;
+    z-index: 8;
+    width: 538px;
+    top: calc(50% + 123px);
+    left: calc(50% + 305px);
+    transform: translate(-50%, -50%);
+}
+.text{
+    position: absolute;
+    z-index: 9;
+    top: calc(50% - 130px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    pointer-events: auto;
+    color: #ffffff;
+}
+.text h2{
+    font-weight: 10;
+    font-size: 3rem;
+    line-height: 0.88;
+}
+.text h1{
+    font-weight: 800;
+    font-size: 6rem;
+    line-height: 0.88;
+}
+.mountain-6 {
+    position: absolute;
+    z-index: 10;
+    top: calc(50% + 123px);
+    left: calc(50% + 490px);
+    width: 538px;
+    transform: translate(-50%, -50%);
+}
+.fog-4 {
+    position: absolute;
+    z-index: 11;
+    width: 590px;
+    top: calc(50% + 223px);
+    left: calc(50% - 60px);
+}
+.mountain-5 {
+    position: absolute;
+    z-index: 12;
+    width: 538px;
+    top: calc(50% + 250px);
+    left: calc(50% + 140px);
+    transform: translate(-50%, -50%);
+}
+.fog-3{
+    position: absolute;
+    z-index: 13;
+    width: 590px;
+    top: calc(50% + 143px);
+    left: calc(50% + 640px);
+    transform: translate(-50%, -50%);
+}
+.mountain-4 {
+    position: absolute;
+    z-index: 14;
+    width: 538px;
+    top: calc(50% + 167px);
+    left: calc(50% + 340px);
+    transform: translate(-50%, -50%);
+}
+.mountain-3 {
+    position: absolute;
+    z-index: 14;
+    width: 538px;
+    top: calc(50% + 140px);
+    left: calc(50% + 680px);
+    transform: translate(-50%, -50%);
+}
+.fog-2{
+    position: absolute;
+    z-index: 13;
+    width: 590px;
+    top: calc(50% + 143px);
+    left: calc(50% + 640px);
+    transform: translate(-50%, -50%);
+}
+.mountain-2 {
+    position: absolute;
+    z-index: 14;
+    width: 538px;
+    top: calc(50% + 140px);
+    left: calc(50% - 350px);
+    transform: translate(-50%, -50%);
+}
+.mountain-1 {
+    position: absolute;
+    z-index: 14;
+    width: 538px;
+    top: calc(50% + 10px);
+    left: calc(50% - 600px);
+    transform: translate(-50%, -50%);
+}
+.sun-rays{
+    position: absolute;
+    z-index: 15;
+    top: 0;
+    right: 0;
+    width: 595px;
+    pointer-events: none;
+}
+.black-shadow{
+    position: absolute;
+    z-index: 15;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.fog-1{
+    position: absolute;
+    z-index: 16;
+    width: 1600px;
+    top: calc(100% - 355px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.vignette{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 65%, rgba(0, 0, 0, 0.7))
 }
 nav {
     position: fixed;
