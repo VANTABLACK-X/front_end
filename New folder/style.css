@@ -20,51 +20,6 @@ body{
     height: 100vh;
     height: -wedkit-fill-available;
 }
-nav{
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    box-sizing: border-box;
-    box-shadow: 0 0 25px 25px black, 0 0 50px 50px black, 0 0  75px 75px black, 0 0 100px 100px black;
-}
-nav ul{
-    position: fixed;
-    list-style: none;
-    right: 0;
-    float: right;
-    margin-right: 5px;
-    padding: 35px;
-    display: flex;
-}
-nav li{
-    display: inline-block;  
-    line-height: 30px;
-}
-nav a{ 
-    color: rgb(255, 255, 255);
-    margin-inline-end: 0.07em;
-    padding: 5px 10px;
-    text-decoration: none;
-    font-size: 13px;
-    border-radius: 6px;
-}
-nav ul li a:hover{
-    background: rgba(70, 69, 69, 0.7);
-    border-radius: 6px;
-}
-nav #icon{
-    position: fixed;
-    color: rgb(255, 255, 255);
-    right: 1%;
-    padding-top: 2%;
-    font-size: 25px;
-    line-height: 80px;
-    float: right;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
 section{
     width: 100%;
     height: 100vh;
@@ -77,9 +32,9 @@ section{
 }
 .sign {
     position: relative;
-    top: 325px;
-    left: 495px;
-    margin-right: 5px;
+    top: 285px;
+    left: 754px;
+    margin-right: 0px;
     background: none;
     color: #ffeeee;
     font-size: 5rem;
@@ -253,7 +208,7 @@ animation: change-op 10s infinite linear;
     animation-timing-function: ease-in-out;
     position: absolute;
     top: 520px;
-    right: 530px;
+    left: 80px;
 }
 @keyframes floating1 {
     0%{transform: translate(0, 10px);}
@@ -265,14 +220,14 @@ animation: change-op 10s infinite linear;
     width: 250px;
     height: 150px;
     top: 100px;
-    right: 350px;
+    left: 60px;
 }
 .dots2 img{
     position: absolute;
     width: 250px;
     height: 150px;
     top: 510px;
-    right: 80px;
+    right: 60px;
 }
 .ninja img{
     animation-name: ninja1;
@@ -280,10 +235,10 @@ animation: change-op 10s infinite linear;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     position: absolute;
-    width: 400px;
-    height: 600px;
-    top: 100px;
-    right: 100px;
+    width: 200px;
+    height: 250px;
+    top: 150px;
+    left: 550px;
 }
 @keyframes ninja1 {
     0%{transform: translate(0, 0px);}
@@ -296,8 +251,8 @@ animation: change-op 10s infinite linear;
     color: rgb(255, 255, 255);
     position: absolute;
     font-weight: bold;
-    top: 260px;
-    left: 260px;
+    top: 200px;
+    left: 560px; 
 }
 .header-text .ft{
     font-size: 27px;
@@ -309,29 +264,27 @@ animation: change-op 10s infinite linear;
     font-size: 65px;
     color: aliceblue;
     position: absolute;
-    top: 320px;
-    left: 140px;
+    top: 280px;
+    left: 450px;
 }
 .header-text1 h1{
     font-size: 75px;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
-.navi {
+nav {
     position: fixed;
     align-items: center;
-    top: 15px;
-    left: 490px; 
+    top: 450px;
+    right: 20px; 
 }
-.navi a i{
-    color: #646464;
-    font-size: 30px;
+nav a i{
+    color: #ffffff;
+    font-size: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-right: 25px;
-    margin-left: 25px;
 }
-.navi a i:hover{
+nav a i:hover{
     color: white;
     text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 15px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255);
 }
@@ -657,38 +610,30 @@ animation: change-op 10s infinite linear;
 .about-cont p span{
     color: rgb(221, 221, 221);
 }
+.shadow {
+    position: fixed;
+    top: 0;
+    height: 20px;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 0 80px 80px black, 0 0 60px 60px black;
+}
 @media only screen and (max-width: 700px){
-    nav #icon{
-        display: block;
-    }
-    nav ul{
-        background: rgb(19, 19, 19);
+    nav {
         position: fixed;
-        border-radius: 10px;
-        box-shadow: 0 0 2px rgb(201, 201, 201);
-        top: 10px;
-        right: 10px;
-        width: 160px;
-        left: 600px;
-        flex-direction: column;
-        text-align: left;
-        transition: all 0.5s;
+        align-items: center;
+        top: 240px;
+        right: 20px; 
     }
-    nav li{
-        display: block;
+    nav a i{
+        color: #ffffff;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
-    nav ul.show{
-        position: fixed;
-        left: 180px;
-        flex-direction: column;
-    }
-    nav{
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 100%;
-        box-sizing: border-box;
-        box-shadow: 0 0 70px 70px black;
+    nav a i:hover{
+        color: white;
+        text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 15px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255);
     }
     .floating img{
         animation-name: floating;

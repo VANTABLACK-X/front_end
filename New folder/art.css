@@ -13,50 +13,21 @@ body{
     scroll-behavior: smooth;
     background-color: black;
 }
-nav{
+nav {
     position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    box-sizing: border-box;
-    box-shadow: 0 0 100px 100px black;
+    align-items: center;
+    top: 450px;
+    right: 20px; 
 }
-nav ul{
-    position: fixed;
-    list-style: none;
-    right: 0;
-    float: right;
-    margin-right: 5px;
-    padding: 35px;
-    display: flex;
-}
-nav li{
-    display: inline-block;  
-    line-height: 30px;
-}
-nav a{ 
-    color: rgb(255, 255, 255);
-    margin-inline-end: 0.07em;
-    padding: 5px 10px;
-    text-decoration: none;
-    font-size: 13px;
-    border-radius: 6px;
-}
-nav ul li a:hover{
-    background: rgba(70, 69, 69, 0.7);
-    border-radius: 6px;
-}
-nav #icon{
-    position: fixed;
-    color: rgb(255, 255, 255);
-    right: 1%;
-    padding-top: 2%;
+nav a i{
+    color: #ffffff;
     font-size: 25px;
-    line-height: 80px;
-    float: right;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+nav a i:hover{
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 15px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255);
 }
 .page h1{
     position: absolute;
@@ -64,7 +35,7 @@ nav #icon{
     left: 550px;
     color: aliceblue;
 }
-.page p{
+.page h2{
     position: absolute;
     top: 250px;
     left: 620px;
@@ -78,37 +49,21 @@ section{
     background-position: center;
 }
 @media only screen and (max-width: 700px){
-    nav #icon{
-        display: block;
-    }
-    nav ul{
-        background: rgb(19, 19, 19);
+    nav {
         position: fixed;
-        border-radius: 10px;
-        box-shadow: 0 0 2px rgb(201, 201, 201);
-        top: 10px;
-        right: 10px;
-        width: 160px;
-        left: 600px;
-        flex-direction: column;
-        text-align: left;
-        transition: all 0.5s;
+        align-items: center;
+        top: 240px;
+        right: 20px; 
     }
-    nav li{
-        display: block;
+    nav a i{
+        color: #ffffff;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
-    nav ul.show{
-        position: fixed;
-        left: 180px;
-        flex-direction: column;
-    }
-    nav{
-        position: fixed;
-        top: 0;
-        right: 0;
-        width: 100%;
-        box-sizing: border-box;
-        box-shadow: 0 0 70px 70px black;
+    nav a i:hover{
+        color: white;
+        text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 15px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255);
     }
     .page h1{
         position: absolute;
