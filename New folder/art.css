@@ -52,7 +52,7 @@ main {
 }
 .mountain-9 {
     position: absolute;
-    z-index: 12;
+    z-index: 5;
     width: 538px;
     top: calc(50% + 250px);
     left: calc(50% - 590px);
@@ -144,7 +144,7 @@ main {
 }
 .mountain-3 {
     position: absolute;
-    z-index: 14;
+    z-index: 15;
     width: 538px;
     top: calc(50% + 140px);
     left: calc(50% + 680px);
@@ -152,7 +152,7 @@ main {
 }
 .fog-2{
     position: absolute;
-    z-index: 13;
+    z-index: 16;
     width: 590px;
     top: calc(50% + 143px);
     left: calc(50% + 640px);
@@ -160,7 +160,7 @@ main {
 }
 .mountain-2 {
     position: absolute;
-    z-index: 14;
+    z-index: 17;
     width: 538px;
     top: calc(50% + 140px);
     left: calc(50% - 350px);
@@ -168,7 +168,7 @@ main {
 }
 .mountain-1 {
     position: absolute;
-    z-index: 14;
+    z-index: 18;
     width: 538px;
     top: calc(50% + 10px);
     left: calc(50% - 600px);
@@ -176,7 +176,7 @@ main {
 }
 .sun-rays{
     position: absolute;
-    z-index: 15;
+    z-index: 19;
     top: 0;
     right: 0;
     width: 595px;
@@ -184,7 +184,7 @@ main {
 }
 .black-shadow{
     position: absolute;
-    z-index: 15;
+    z-index: 20;
     bottom: 0;
     right: 0;
     width: 100%;
@@ -192,7 +192,7 @@ main {
 }
 .fog-1{
     position: absolute;
-    z-index: 16;
+    z-index: 21;
     width: 1600px;
     top: calc(100% - 355px);
     left: 50%;
@@ -201,40 +201,80 @@ main {
 .vignette{
     position: absolute;
     z-index: 100;
-    width: 100%;
+    width: 96%;
     height: 100%;
     top: 0;
     left: 0;
-    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 65%, rgba(0, 0, 0, 0.7))
 }
-nav {
+.icon1 {
     position: fixed;
-    align-items: center;
-    top: 450px;
-    right: 20px; 
-}
-nav a i{
-    color: #ffffff;
-    font-size: 25px;
-    margin-top: 10px;
+    z-index: 22;
+    top: 510px;
+    right: 24px;
     margin-bottom: 10px;
+    font-size: 25px;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
 }
-nav a i:hover{
+.icon1:hover{
     color: white;
     text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 15px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255);
 }
-.page h1{
-    position: absolute;
-    top: 200px;
-    left: 550px;
-    color: aliceblue;
+.icon2 {
+    position: fixed;
+    z-index: 23;
+    top: 550px;
+    right: 22px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
 }
-.page h2{
-    position: absolute;
-    top: 250px;
-    left: 620px;
-    color: aliceblue;
-    font-size: larger;
+.icon2:hover{
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 15px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255);
+}
+.icon3 {
+    position: fixed;
+    z-index: 24;
+    top: 590px;
+    right: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+}
+.icon3:hover{
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 15px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255);
+}
+.icon4 {
+    position: fixed;
+    z-index: 22;
+    top: 630px;
+    right: 17px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+}
+.icon4:hover{
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 15px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255);
+}
+.icon5 {
+    position: fixed;
+    z-index: 22;
+    top: 670px;
+    right: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+}
+.icon5:hover{
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 15px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255);
 }
 section{
     width: 100%;
@@ -243,33 +283,5 @@ section{
     background-position: center;
 }
 @media only screen and (max-width: 700px){
-    nav {
-        position: fixed;
-        align-items: center;
-        top: 240px;
-        right: 20px; 
-    }
-    nav a i{
-        color: #ffffff;
-        font-size: 25px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    nav a i:hover{
-        color: white;
-        text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 15px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255);
-    }
-    .page h1{
-        position: absolute;
-        top: 200px;
-        left: 60px;
-        color: aliceblue;
-    }
-    .page p{
-        position: absolute;
-        top: 250px;
-        left: 110px;
-        color: aliceblue;
-        font-size: larger;
-    }
+   
 }

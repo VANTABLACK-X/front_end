@@ -27,6 +27,8 @@ function update(cursorPosition) {
 update(0);
 
 window.addEventListener("mousemove", (e) => {
+    if (timeline.isActive()) return;
+
     xValue = e.clientX - window.innerWidth / 2;
     yValue = e.clientY - window.innerHeight / 2;
 
@@ -38,20 +40,11 @@ window.addEventListener("mousemove", (e) => {
 
 let timeline = gsap.timeline();
 
-Array.from(parallax_el)
-.filter(el => el.classList.contains("text"))
-.forEach((el) => {
+parallax_el.forEach((el) => {
 timeline.from(el, {
   top: `${el.offsetHeight / 2 + el.dataset.distance}px`,
-  duration: 3.5,
-  ease: "power3.out",
+  duration: 1,
 },
 "1"
 );
 });
-timeline.from(".text h1", {
-  y: window.innerHeight - document.querySelector(".text h1").getBoundingClientRect().top,
-  duration: 2,
-},
-"2.5"
-);
