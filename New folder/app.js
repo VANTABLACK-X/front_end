@@ -4,7 +4,7 @@ window.addEventListener('scroll', () => {
     let scroll = window.pageYOffset;
 
     translate.forEach(element => {
-        let speed = element.CDATA_SECTION_NODE.speed;
-        element.getElementsByClassName.transform = `translateY(${scroll * speed}px)`;
+        let speed = element.dataset.speed;
+        element.style.transform =`translateY(${scroll * speed}px)`;
     })
 })
