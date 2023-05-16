@@ -40,7 +40,7 @@ header {
     position: absolute;
     top: 0;
     width: 100%;
-    height: 300px;
+    height: 400px;
     bottom: 200px;
 }
 .title h1{
@@ -129,16 +129,16 @@ header {
 }
 .about h1{
     position: absolute;
-    top: 1000px;
-    left: 100px;
-    color: aliceblue;
+    top: 805px;
+    left: 140px;
+    color: rgb(177, 219, 255);
     font-size: 30px;
 }
 .about-icon i{
     position: absolute;
     font-size: 25px;
-    top: 688px;
-    left: 95px;
+    top: 810px;
+    left: 94px;
     color: rgb(204, 230, 255);
     text-shadow: 0 0 10px rgb(109, 200, 252), 0 0 15px rgb(109, 200, 252), 0 0 25px rgb(109, 200, 252), 0 0 30px rgb(109, 200, 252), 0 0 35px rgb(109, 200, 252), 0 0 40px rgb(109, 200, 252), 0 0 50px rgb(109, 200, 252), 0 0 60px rgb(109, 200, 252), 0 0 70px rgb(109, 200, 252), 0 0 12px rgb(109, 200, 252), 0 0 80px rgb(109, 200, 252);
 }
@@ -146,7 +146,7 @@ header {
     position: absolute;
     top: 100vh;
     left: 103px;
-    height: 160px;
+    height: 100px;
     width: 3px;
     background: linear-gradient(rgb(0, 0, 0) 15%, rgb(109, 200, 252)) ;
 }
@@ -154,7 +154,7 @@ header {
     position: absolute;
     height: 200px;
     width: 3px;
-    top: 730px;
+    top: 855px;
     left: 103px;
     background: linear-gradient(rgb(109, 200, 252), rgb(0, 0, 0) 85%) ;
 }
@@ -165,6 +165,365 @@ header {
     top: 1400px;
     left: 103px;
     background: linear-gradient(rgb(0, 0, 0) 15%, rgb(197, 51, 255)) ;
+}
+.whightlight {
+    position: absolute;
+    top: -690px;
+    left: -350px;
+    height: 2400px;
+    width: 2600px;
+}
+.g1{
+    position: absolute;
+    top: 360px;
+    right: 170px;
+    background: rgb(20, 20, 20);
+    clip-path: polygon(32% 0, 84% 63%, 54% 100%, 4% 73%);
+    height: 130px;
+    width: 140px;
+}
+.g2 {
+    position: absolute;
+    top: 520px;
+    right: 125px;
+    background: linear-gradient(35deg, #250000 40%, rgb(10, 10, 10) 50%);
+    clip-path: polygon(94% 12%, 98% 60%, 0 100%, 13% 55%);
+    height: 170px;
+    width: 200px;
+}
+.g3 {
+    position: absolute;
+    top: 510px;
+    right: 122px;
+    background: rgba(26, 0, 0, 0.623);
+    clip-path: polygon(94% 12%, 98% 60%, 0 100%, 13% 55%);
+    height: 170px;
+    width: 200px;
+}
+.g4 {
+    position: absolute;
+    top: 500px;
+    right: 135px;
+    background: rgb(12, 12, 12);
+    clip-path: polygon(99% 42%, 43% 92%, 0 71%, 46% 0);
+    height: 190px;
+    width: 180px;
+}
+.g5 {
+    position: absolute;
+    top: 451px;
+    right: 75px;
+    background: rgb(12, 12, 12);
+    clip-path: polygon(54% 0, 61% 75%, 15% 96%, 46% 6%);
+    height: 130px;
+    width: 130px;
+}
+.g6 {
+    position: absolute;
+    top: 533px;
+    left: 400px;
+    background:  rgba(0, 0, 0, 0.884);
+    clip-path: polygon(76% 0, 67% 100%, 0 88%, 34% 7%);
+    height: 120px;
+    width: 120px;
+}
+.g7 {
+    position: absolute;
+    top: 520px;
+    right: 120px;
+    background: linear-gradient(100deg, #140000 50%, rgb(10, 10, 10) 70%);
+    clip-path: polygon(100% 74%, 93% 100%, 9% 100%, 0 74%);
+    height: 180px;
+    width: 120px;
+}
+.g8 {
+    position: absolute;
+    top: 430px;
+    left: 700px;
+    background:  rgba(43, 1, 1, 0.822);
+    clip-path: polygon(100% 31%, 91% 100%, 6% 74%, 46% 0);
+    height: 140px;
+    width: 140px;
+}
+.g9 {
+    position: absolute;
+    top: 130px;
+    left: 330px;
+    background:  rgb(0, 0, 0);
+    clip-path: polygon(33% 78%, 23% 100%, 0 16%, 18% 0);
+    height: 100px;
+    width: 130px;
+}
+.g10 {
+    position: absolute;
+    top: 60px;
+    left: 470px;
+    background: linear-gradient(82deg, #2e2e2ed5 34%, rgb(10, 10, 10) 30%);
+    clip-path: polygon(41% 100%, 20% 76%, 24% 0, 53% 81%);
+    height: 100px;
+    width: 80px;
+}
+.g11 {
+    position: absolute;
+    top: 570px;
+    left: 500px;
+    background: black;
+    clip-path: polygon(38% 100%, 0 11%, 29% 2%, 59% 100%);
+    height: 150px;
+    width: 140px;
+}
+.g12 {
+    position: absolute;
+    top: 553px;
+    left: 333px;
+    background: black;
+    clip-path: polygon(0 100%, 8% 93%, 100% 76%, 94% 94%);
+    height: 145px;
+    width: 140px;
+}
+.g13 {
+    position: absolute;
+    top: 553px;
+    left: 490px;
+    background: black;
+    clip-path: polygon(9% 100%, 0 100%, 87% 41%, 90% 54%);
+    height: 150px;
+    width: 140px;
+}
+.g14 {
+    position: absolute;
+    top: 405px;
+    right: -15px;
+    background: rgba(0, 0, 0, 0.541);
+    clip-path: polygon(12% 100%, 0 28%, 33% 0, 23% 100%);
+    height: 200px;
+    width: 160px;
+}
+.g15 {
+    position: absolute;
+    top: 435px;
+    right: 0;
+    background: linear-gradient(22deg, #000000f3 20%, rgba(29, 0, 0, 0.671) 10%);
+    clip-path: polygon(13% 0, 87% 36%, 38% 100%, 0 80%, 5% 8%);
+    height: 100px;
+    width: 100.8px;
+}
+.g16 {
+    position: absolute;
+    top: 500px;
+    right: -70px;
+    background: linear-gradient(12deg, #200000d5 54%, rgb(10, 10, 10) 54%);
+    clip-path: polygon(34% 0, 40% 0, 36% 100%, 24% 100%);
+    height: 130px;
+    width: 140px;
+}
+.g17 {
+    position: absolute;
+    top: 570px;
+    right: 140px;
+    background: rgba(19, 0, 0, 0.76);
+    clip-path: polygon(20% 45%, 45% 51%, 41% 72%, 11% 100%);
+    height: 130px;
+    width: 140px;
+}
+.g18 {
+    position: absolute;
+    top: 577px;
+    right: 110px;
+    background: rgba(19, 0, 0, 0.76);
+    clip-path: polygon(20% 49%, 45% 51%, 48% 72%, 11% 100%);
+    height: 130px;
+    width: 140px;
+}
+.g19 {
+    position: absolute;
+    top: 530px;
+    right: 85px;
+    background: rgba(0, 0, 0, 0.582);
+    clip-path: polygon(15% 49%, 29% 50%, 28% 100%, 11% 100%);
+    height: 130px;
+    width: 110px;
+}
+.g20 {
+    position: absolute;
+    top: 600px;
+    right: 50px;
+    background: rgba(26, 0, 0, 0.582);
+    clip-path: polygon(0 53%, 11% 53%, 26% 100%, 15% 100%);
+    height: 70px;
+    width: 110px;
+}
+.g21 {
+    position: absolute;
+    top: 653px;
+    right: 35px;
+    background: rgba(0, 0, 0, 0.678);
+    clip-path: polygon(11% 63%, 23% 57%, 48% 89%, 33% 95%);
+    height: 45px;
+    width: 63px;
+}
+.g22 {
+    position: absolute;
+    top: 580px;
+    right: 45px;
+    background: rgb(0, 0, 0, 0.678);
+    clip-path: polygon(11% 86%, 40% 75%, 49% 83%, 5% 100%);
+    height: 110px;
+    width: 70px;
+}
+.g23 {
+    position: absolute;
+    top: 645px;
+    right: 50px;
+    background: rgb(0, 0, 0, 0.678);
+    clip-path: polygon(86% 36%, 88% 37%, 24% 55%, 100% 63%, 96% 65%, 0% 60%, 0 50%);
+    height: 60px;
+    width: 30px;
+}
+.g24 {
+    position: absolute;
+    top: 650px;
+    right: 50px;
+    background: rgb(0, 0, 0, 0.678);
+    clip-path: polygon(11% 63%, 33% 53%, 49% 100%, 0% 100%);
+    height: 60px;
+    width: 63px;
+}
+.g25 {
+    position: absolute;
+    top: 595px;
+    right: 0;
+    background: linear-gradient(112deg, #200000d5 50%, rgb(10, 10, 10) 74%);
+    clip-path: polygon(17% 61%, 48% 65%, 83% 100%, 5% 100%);
+    height: 100px;
+    width: 120px;
+    
+}
+.g26 {
+    position: absolute;
+    top: 617px;
+    right: -16px;
+    background: rgba(0, 0, 0, 0.342);
+    clip-path: polygon(21% 15%, 53% 26%, 88% 100%, 0 100%);
+    height: 80px;
+    width: 133px;
+}
+.g27 {
+    position: absolute;
+    top: 600px;
+    right: -16px;
+    background: rgba(0, 0, 0, 0.733);
+    clip-path: polygon(21% 15%, 53% 26%, 88% 100%, 0 100%);
+    height: 100px;
+    width: 133px;
+}
+.g27 {
+    position: absolute;
+    top: 630px;
+    right: -24px;
+    background: rgba(37, 0, 0, 0.637);
+    clip-path: polygon(64% 28%, 53% 26%, 88% 100%, 100% 90%);
+    height: 76px;
+    width: 133px;
+}
+.g28 {
+    position: absolute;
+    top: 280px;
+    right: 144px;
+    background: rgba(255, 0, 0, 0.445);
+    clip-path: polygon(47% 0, 46% 4%, 66% 100%, 67% 94%);
+    height: 106px;
+    width: 133px;
+}
+.g29 {
+    position: absolute;
+    top: 280px;
+    right: 144px;
+    background: rgba(0, 0, 0, 0.596);
+    clip-path: polygon(51% 0, 50% 5%, 61% 100%, 62% 95%);
+    height: 106px;
+    width: 133px;
+}
+.g30 {
+    position: absolute;
+    top: 320px;
+    right: 110px;
+    background: rgb(0, 0, 0);
+    clip-path: polygon(13% 31%, 0 48%, 100% 80%, 100% 73%);
+    height: 66px;
+    width: 85px;
+}
+.g31 {
+    position: absolute;
+    top: 300px;
+    right: 120px;
+    background: rgba(34, 0, 0, 0.842);
+    clip-path: polygon(59% 0, 36% 0, 0 95%, 10% 100%);
+    height: 106px;
+    width: 105px;
+}
+.g32 {
+    position: absolute;
+    top: 297px;
+    right: 120px;
+    background: rgb(0, 0, 0);
+    clip-path: polygon(59% 0, 36% 0, 0 95%, 10% 100%);
+    height: 96px;
+    width: 105px;
+}
+.g33 {
+    position: absolute;
+    top: 327px;
+    right: 135px;
+    background: rgba(0, 0, 0, 0.61);
+    clip-path: polygon(33% 0, 0 7%, 59% 80%, 100% 100%);
+    height: 96px;
+    width: 100px;
+}
+.g33 {
+    position: absolute;
+    top: 300px;
+    right: 280px;
+    background: rgb(0, 0, 0);
+    clip-path: polygon(38% 49%, 35% 47%, 17% 100%, 25% 100%);
+    height: 156px;
+    width: 140px;
+}
+.g34 {
+    position: absolute;
+    top: 238px;
+    right: 234px;
+    background: linear-gradient(136deg, #222222b0 54%, rgba(10, 10, 10, 0.863) 54%);
+    clip-path: polygon(63% 59%, 38% 52%, 0 91%, 10% 100%);
+    height: 156px;
+    width: 140px;
+}
+.g35 {
+    position: absolute;
+    top: 298px;
+    right: 259px;
+    background: rgba(0, 0, 0, 0.589);
+    clip-path: polygon(39% 75%, 57% 74%, 11% 35%, 3% 45%);
+    height: 166px;
+    width: 110px;
+}
+.g36 {
+    position: absolute;
+    top: 338px;
+    right: 249px;
+    background: rgb(48, 48, 48);
+    clip-path: polygon(56% 63%, 38% 45%, 0 36%, 5% 45%);
+    height: 166px;
+    width: 90px;
+}
+.g37 {
+    position: absolute;
+    top: 398px;
+    right: 199px;
+    background: rgb(48, 48, 48);
+    clip-path: polygon(43% 100%, 46% 43%, 42% 41%, 36% 100%);
+    height: 166px;
+    width: 150px;
 }
 .contact h2{
     position: absolute;
