@@ -1,0 +1,31 @@
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 999;
+  }
+  
+  .popup p {
+    margin: 0;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    cursor: pointer;
+  }
+  
+  .content {
+   
+    height: 2000px; /* Example content height */
+  }
+  
